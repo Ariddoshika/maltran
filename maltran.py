@@ -64,15 +64,16 @@ def list_exercises():
     '''
 
     msg = ''
+    i = 0
     for i,data in enumerate(url.findAll('li')):
         try:
             date = data.find('a',attrs={'class':'list_header'}).text
             exercise = data.find('a',attrs={'class':'main_menu'}).text[28::]
-            msg += ('\n[{0}{1:02}{2}] {3} <--> {4}'.format(RED,i+1,END,date,exercise))
+            msg += ('\n[{0}{1:02}{2}] {3} <--> {4}'.format(RED,i + 1,END,date,exercise))
         except AttributeError:
             break
 
-    exit_option = ('\n[{0}{1:02}{2}] {0}E x i t{2}'.format(RED,i+1,END))
+    exit_option = ('\n[{0}{1:02}{2}] {0}E x i t{2}'.format(RED, i + 1,END))
     msg += exit_option
     return i + 1,msg
      
@@ -130,7 +131,7 @@ def option_1(date_exercise, link_exercise):
 
             for exercises in urlGET.url_get(page)[0].findAll('li'):
                 try:
-                    files_all = exercises.find('a', attrs={'class': 'menu_link', 'href': re.compile('^' + date_exercise + '*')})['href']
+                    files_all = exercises.find('a', attrs={'class': 'menu_link', 'href': re.compile('^' + date_exercise + '.*')})['href']
                     result += '\n' + files_all
                 except TypeError:
                     pass
@@ -224,7 +225,7 @@ def option_2(date_exercise, link_exercise):
             except TypeError:
                 pass
 
-    result += '\n\n{}Downloads Successful{} \n'.format(GREEN,END)
+    result += '\n\n{0}password is: infected{1}\n{2}Downloads Successful{1} \n'.format(RED,END,GREEN)
     return result
 
 def option_3(date_exercise, link_exercise):
@@ -305,7 +306,7 @@ def option_3(date_exercise, link_exercise):
                     except FileNotFoundError:
                         pass
 
-    result += '\n\n{}Downloads Successful{} \n'.format(GREEN, END)
+    result += '\n\n{0}password is: infected{1}\n{2}Downloads Successful{1} \n'.format(RED, END, GREEN)
     return result
 
 
@@ -395,8 +396,7 @@ def option_4(date_exercise, link_exercise):
     if result == '':
         result = '\n\n{}There is no answer file{}\n'.format(GREEN, END)
     else:
-        result += '\n\n{}Downloads Successful{} \n'.format(GREEN, END)
-
+        result += '\n\n{0}password is: infected{1}\n{2}Downloads Successful{1} \n'.format(RED, END, GREEN)
     return result
 
 
