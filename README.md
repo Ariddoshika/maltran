@@ -25,7 +25,7 @@ This tool was developed with the purpose of furthering and organizing access to 
 
 > <i class="icon-bug"></i>**Developers:** 
 
-> - **Vandré  Augusto,** Electric Engineer & Malware Researcher - [blog][2]
+> - **Vandré Augusto,** Electric Engineer & Malware Researcher - [blog][2]
 > - **Ialle Teixeira,** Security/Malware Researcher - [blog][1]
 
   [1]: http://malwareverse.com/author/admin/

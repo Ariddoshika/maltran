@@ -1,5 +1,4 @@
-# maltran.py: 10
-# urlGET.py: 5
-
-beautifulsoup4 == 4.5.3
+# maltran.py
+# urlGET.py
+beautifulsoup4 == 4.6.0
 requests == 2.12.4
