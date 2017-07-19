@@ -24,7 +24,7 @@ WHITE, RED, YELLOW, GREEN, END = '\33[1;97m','\33[1;91m', '\33[1;93m', '\33[1;32
 
 if len(sys.argv) > 1:
     use = '''
-{0}maltran v1.0{1}
+{0}maltran v2.0{1}
 
 github.com/MalwareReverseBrasil/maltran.git
 Telegram: https://t.me/MalwareReverseBR
@@ -39,7 +39,7 @@ banner = ('''
 ╔╦╗╔═╗╦  ┬ ┬┌─┐┬─┐┌─┐            
 ║║║╠═╣║  │││├─┤├┬┘├┤             
 ╩ ╩╩ ╩╩═╝└┴┘┴ ┴┴└─└─┘            
-      ╔╦╗╦═╗┌─┐┌─┐┌─┐┬┌─┐    \t\t{}maltran.py version 1.0{}    
+      ╔╦╗╦═╗┌─┐┌─┐┌─┐┬┌─┐    \t\t{}maltran.py version 2.0{}    
        ║ ╠╦╝├─┤├┤ ├┤ ││      \t\tTelegram: https://t.me/MalwareReverseBR   
        ╩ ╩╚═┴ ┴└  └  ┴└─┘    \t\thttps://github.com/MalwareReverseBrasil  
            ╔═╗╔╗╔┌─┐┬  ┬┌─┐┬ ┬┌─┐
