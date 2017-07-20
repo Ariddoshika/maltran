@@ -37,7 +37,9 @@ Visit website **[Malware-Traffic-Analysis][3]** - A source for pcap files and ma
 <i class="icon-puzzle"></i> Main menu screen
 -------------
 
-![output example](https://raw.githubusercontent.com/MalwareReverseBrasil/maltran/master/screenshot/Captura_de_tela_de_2017-07-18_22-11-00.png)
+![output example](https://raw.githubusercontent.com/MalwareReverseBrasil/maltran/master/screenshots/2%20-%20main%20menu.png)
+![output example](https://raw.githubusercontent.com/MalwareReverseBrasil/maltran/master/screenshots/3%20-%20show%20exercises.png)
+![output example](https://raw.githubusercontent.com/MalwareReverseBrasil/maltran/master/screenshots/8%20-%20menu%20months.png)
 
 
 > <i class="icon-bug"></i>**Developers:** 
