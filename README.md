@@ -2,7 +2,7 @@
 ===================
 
 
-This tool was developed with the purpose of furthering and organizing access to traffic analysis exercises and malware files captured and published almost daily. Maltran makes it easy to view and download exercises and malspams in an extremely simple and organized way.
+This tool was developed with the purpose of furthering and organizing access to traffic analysis exercises and malware files captured and published almost daily. Maltran makes the views and downloads exercises and malspams easier in an extremely simple and organized way.
 
 Visit website **[Malware-Traffic-Analysis][3]** - A source for pcap files and malware samples...
 
@@ -49,8 +49,8 @@ Visit website **[Malware-Traffic-Analysis][3]** - A source for pcap files and ma
 
 > <i class="icon-bug"></i>**Acknowledgments to**
 
-> - **Thiago Peixoto**
-> - **Renato Pacheco**
+> - **Thiago Peixoto** (@thiagopeixoto)
+> - **Renato Pacheco** (@shrimp)
 
   [1]: http://malwareverse.com/author/admin/
   [2]: http://malwareverse.com/author/drinkordie/
