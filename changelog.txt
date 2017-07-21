@@ -1,5 +1,9 @@
 2.0
-New Features
+Added:
+  All downloads are placed in a specific folder
+  Show password after download
+  Session blog posts, with filtering possibilities by year and month
+  Bug fixes and exceptions
 
 1.0
 Version Initial
